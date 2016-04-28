@@ -1,8 +1,5 @@
 util\Constants.class
 util\DBWorker.class
-models\StudentProfile.class
-base\CORSFilter.class
-base\AuthRequestFilter.class
 base\JavaServer.class
+models\StudentProfile.class
 models\StudentsBook.class
-mypack\HelloWorldService.class

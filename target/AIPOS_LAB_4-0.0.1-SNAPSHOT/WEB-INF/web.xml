@@ -9,14 +9,6 @@
   		<param-name>com.sun.jersey.config.property.packages</param-name>
 		<param-value>base;org.codehaus.jackson.jaxrs</param-value>
 	</init-param>
-	 <init-param>
-            <param-name>com.sun.jersey.spi.container.ContainerResponseFilters</param-name>
-            <param-value>base.CORSFilter</param-value>
-        </init-param>
-        <init-param>
-  			<param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
-  			<param-value>base.AuthRequestFilter</param-value>
-		</init-param>
 	<load-on-startup>1</load-on-startup>
 </servlet>
 
